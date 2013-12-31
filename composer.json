@@ -1,5 +1,5 @@
 {
-    "name": "elao/web-profiler-extra-bundle",
+    "name": "devits/web-profiler-extra-bundle",
     "type":        "symfony-bundle",
     "description": "Add routing, container, assetic & twig information inside the profiler",
     "keywords":    ["elao", "profiler", "extra", "bundle"],

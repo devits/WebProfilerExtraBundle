@@ -86,19 +86,19 @@ class TwigDataCollector extends DataCollector
                 );
             }
 
-            foreach ($extension->getFunctions() as $functionName => $function) {
-                if ($function instanceof \Twig_FunctionInterface) {
-                    $call = $function->compile();
-                } else {
-                    $call = $function->getName();
-                }
-
-                $functions[] = array(
-                    'name' => $functionName,
-                    'extension' => $extensionName,
-                    'call' => $call,
-                );
-            }
+//            foreach ($extension->getFunctions() as $functionName => $function) {
+//                if ($function instanceof \Twig_FunctionInterface) {
+//                    $call = $function->compile();
+//                } else {
+//                    $call = $function->getName();
+//                }
+//
+//                $functions[] = array(
+//                    'name' => $functionName,
+//                    'extension' => $extensionName,
+//                    'call' => $call,
+//                );
+//            }
         }
 
         $this->data['extensions'] = $extensions;
